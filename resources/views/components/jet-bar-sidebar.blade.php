@@ -2,7 +2,7 @@
 <div @click.away="open = false" class="flex flex-col w-full lg:w-64 text-gray-700 bg-white dark-mode:text-gray-200 dark-mode:bg-gray-800 flex-shrink-0 lg:border-r" x-data="{ open: false }">
     <div class="flex-shrink-0 px-4 lg:px-8 py-4 flex flex-row items-center justify-between">
         <!-- App Title -->
-        <a href="{{ route('dashboard') }}" class="text-lg font-semibold tracking-widest text-gray-900 uppercase rounded-lg dark-mode:text-white focus:outline-none focus:shadow-outline">
+        <a href="#" class="text-lg font-semibold tracking-widest text-gray-900 uppercase rounded-lg dark-mode:text-white focus:outline-none focus:shadow-outline">
         <img src="{{url('/images/2logo.png')}}" width="210px" height="45px" alt=""/>
 
         </a>
