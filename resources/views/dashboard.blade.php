@@ -4,7 +4,6 @@
     </x-slot>
 
     <x-jet-bar-container>
-        <x-jet-bar-alert text="This is an alert" />
 
         <x-jet-bar-stats-container>
             <x-jet-bar-stat-card title="Total clients" number="6389" type="warning" >

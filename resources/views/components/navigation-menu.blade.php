@@ -1,15 +1,7 @@
 <header class="hidden lg:flex justify-between items-center py-4 px-6 bg-white border-b border-gray-200">
     {{-- Searchbar --}}
     <div class="flex items-center">
-        <div class="relative mr-4 lg:mx-0">
-            <span class="absolute inset-y-0 left-0 pl-3 flex items-center">
-                <svg class="h-5 w-5 text-gray-500" viewBox="0 0 24 24" fill="none">
-                    <path d="M21 21L15 15M17 10C17 13.866 13.866 17 10 17C6.13401 17 3 13.866 3 10C3 6.13401 6.13401 3 10 3C13.866 3 17 6.13401 17 10Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
-                </svg>
-            </span>
-
-            <input class="form-input w-32 sm:w-64 rounded-md pl-10 pr-4 p-2 bg-gray-100 focus:bg-transparent focus:border-indigo-300" type="text" placeholder="Search">
-        </div>
+        
     </div>
     {{-- End Searchbar --}}
 
@@ -67,7 +59,7 @@
 
         {{-- User Dropdown --}}
 
-        <div x-data="{ dropdownOpen: false }" class="relative">
+        <div x-data="{ dropdownOpen: false }" class="relative float-right">
 
             @if (Laravel\Jetstream\Jetstream::managesProfilePhotos())
                 <button @click="dropdownOpen = ! dropdownOpen" class="flex text-sm border-2 border-transparent rounded-full focus:outline-none focus:border-gray-300 transition duration-150 ease-in-out">

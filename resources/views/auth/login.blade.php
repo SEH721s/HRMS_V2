@@ -18,7 +18,7 @@
         
         <form method="POST" action="{{ route('login') }}">
             @csrf
-            <div class="mb-4 text-xl font-black text-center text-indigo-800">
+            <div class="mb-4 text-xl font-black text-center text-indigo-900">
                 Welcome To The Human Resource Management System
             </div>
 
@@ -46,7 +46,7 @@
                     </a>
                 @endif
 
-                <x-jet-button class="ml-4 bg-indigo-800">
+                <x-jet-button class="ml-4 bg-indigo-900">
                     {{ __('Log in') }}
                 </x-jet-button>
             </div>
