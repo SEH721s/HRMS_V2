@@ -22,6 +22,17 @@ Route::middleware(['auth:sanctum', 'verified'])->get('/dashboard', function () {
 })->name('dashboard');
 
 Route::get('redirects','App\Http\Controllers\HomeController@index');
-
-
+//hod routes
+Route::get('/mystaff', function () {
+    return view('hod.mystaff');
+});
+Route::get('/leaves', function () {
+    return view('hod.leaves');
+});
+Route::get('/events', function () {
+    return view('hod.events');
+});
+Route::get('/performance', function () {
+    return view('hod.performance');
+});
 
