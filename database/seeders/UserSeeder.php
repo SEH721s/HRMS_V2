@@ -19,13 +19,13 @@ class UserSeeder extends Seeder
             'name' => "Hubert Mouton",
             'email' =>"h@gmail.com",
             'role' => 1,
-            'password' => Hash::make('123456789'),
+            'password' => "123456789",
         ]);
         DB::table('users')->insert([
             'name' => "Selma Auala",
             'email' =>"s@gmail.com",
             'role' => 0,
-            'password' => Hash::make('123456789'),
+            'password' => "123456789",
         ]);
     }
 }
